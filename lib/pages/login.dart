@@ -21,21 +21,21 @@ class Login extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        SizedBox(height: 35),
+                        SizedBox(height: 30),
                         Text(
                           "Log in",
                           style: TextStyle(fontSize: 33, fontFamily: "myfont"),
                         ),
                         SizedBox(height: 35),
                         SvgPicture.asset("assets/icons/login.svg", width: 288),
-                        SizedBox(height: 35),
+                        SizedBox(height: 20),
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.purple[100],
                             borderRadius: BorderRadius.circular(66),
                           ),
                           width: 266,
-                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 5),
                           child: TextField(
                             decoration: InputDecoration(
                               icon: Icon(
@@ -47,14 +47,14 @@ class Login extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(height: 23),
+                        SizedBox(height: 20),
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.purple[100],
                             borderRadius: BorderRadius.circular(66),
                           ),
                           width: 266,
-                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 5),
                           child: TextField(
                             obscureText: true,
                             decoration: InputDecoration(
@@ -72,7 +72,7 @@ class Login extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(height: 17),
+                        SizedBox(height: 10),
                         ElevatedButton(
                           onPressed: () {},
 
@@ -84,7 +84,7 @@ class Login extends StatelessWidget {
                               EdgeInsets.symmetric(
                                 horizontal:
                                     MediaQuery.of(context).size.width * 0.25,
-                                vertical: 10,
+                                vertical: 5,
                               ),
                             ),
                             shape: WidgetStateProperty.all(
@@ -95,7 +95,7 @@ class Login extends StatelessWidget {
                           ),
                           child: Text("login", style: TextStyle(fontSize: 24)),
                         ),
-                        SizedBox(height: 15),
+                        SizedBox(height: 10),
 
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,

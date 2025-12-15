@@ -22,7 +22,7 @@ class Signup extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        SizedBox(height: 20),
+                        SizedBox(height: 5),
                         Text(
                           "Sign up",
                           style: TextStyle(
@@ -31,12 +31,12 @@ class Signup extends StatelessWidget {
                             color: Colors.grey[800],
                           ),
                         ),
-                        SizedBox(height: 21),
+                        SizedBox(height: 3),
                         SvgPicture.asset(
                           "assets/icons/signup.svg",
                           height: 222,
                         ),
-                        SizedBox(height: 27),
+                        SizedBox(height: 3),
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.purple[100],
@@ -55,7 +55,7 @@ class Signup extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(height: 23),
+                        SizedBox(height: 3),
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.purple[100],
@@ -80,7 +80,7 @@ class Signup extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(height: 17),
+                        SizedBox(height: 5),
                         ElevatedButton(
                           onPressed: () {},
 
@@ -105,7 +105,7 @@ class Signup extends StatelessWidget {
                             style: TextStyle(fontSize: 24),
                           ),
                         ),
-                        SizedBox(height: 33),
+                        SizedBox(height: 3),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -121,9 +121,9 @@ class Signup extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(height: 17),
+                        SizedBox(height: 3),
                         SizedBox(
-                          width: 299,
+                          width: 200,
                           child: Row(
                             children: [
                               Expanded(
@@ -168,7 +168,7 @@ class Signup extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              SizedBox(width: 22),
+                              SizedBox(width: 3),
                               GestureDetector(
                                 onTap: () {},
                                 child: Container(
@@ -187,7 +187,7 @@ class Signup extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              SizedBox(width: 22),
+                              SizedBox(width: 3),
                               GestureDetector(
                                 onTap: () {},
                                 child: Container(
@@ -216,7 +216,7 @@ class Signup extends StatelessWidget {
                     left: 0,
                     child: Image.asset(
                       "assets/images/main_top.png",
-                      width: 111,
+                      width: 100,
                     ),
                   ),
                   Positioned(
@@ -224,7 +224,7 @@ class Signup extends StatelessWidget {
                     right: 0,
                     child: Image.asset(
                       "assets/images/login_bottom.png",
-                      width: 111,
+                      width: 100,
                     ),
                   ),
                 ],
